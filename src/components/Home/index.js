@@ -41,7 +41,9 @@
 
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import LogoTitle from '../../assets/images/logo-s.png';
+// import LogoTitle from '../../assets/images/logo-s.png';
+import Lottie from "lottie-react";
+import ani from '../../assets/logo/nV8nHHrN8v.json'
 import './index.scss';
 import AnimatedLetters from '../AnimatedLetters';
 import Logo from './Logo';
@@ -67,9 +69,10 @@ const Home = () => {
           <span className={`${letterClass} _12`}>i,</span>
           <br />
           <span className={`${letterClass} _13`}>I</span>
-          <span className={`${letterClass} _14`}>'m</span>
-          <img src={LogoTitle} alt="developer" />
-          <AnimatedLetters letterClass={letterClass} strArray={nameArray} idx={15} />
+          <span className={`${letterClass} _14`}>'m</span>{' '}
+          {/* <img src={LogoTitle} alt="developer" /> */}
+          <Lottie animationData={ani} loop={true} style={{ display: 'inline-block', verticalAlign: 'middle', width: '70px', height: '80px' }}/>
+          <AnimatedLetters letterClass={letterClass} strArray={nameArray} idx={15} className="text-name" />
           <br />
           <AnimatedLetters letterClass={letterClass} strArray={jobArray} idx={21} />
         </h1>
