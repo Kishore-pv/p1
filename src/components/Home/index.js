@@ -71,7 +71,7 @@ const Home = () => {
           <span className={`${letterClass} _13`}>I</span>
           <span className={`${letterClass} _14`}>'m</span>{' '}
           {/* <img src={LogoTitle} alt="developer" /> */}
-          <Lottie animationData={ani} loop={true} style={{ display: 'inline-block', verticalAlign: 'middle', width: '70px', height: '80px' }}/>
+          <Lottie animationData={ani} loop={true} style={{ display: 'inline-block', verticalAlign: 'bottom', width: '70px', height: '80px' }}/>
           <AnimatedLetters letterClass={letterClass} strArray={nameArray} idx={15} className="text-name" />
           <br />
           <AnimatedLetters letterClass={letterClass} strArray={jobArray} idx={21} />
