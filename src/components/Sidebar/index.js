@@ -13,10 +13,10 @@ const Sidebar = () => (
             {/* <img className="sub-logo" src={LogoSubtitle} alt="slobodan" /> */}
         </Link>
         <nav>
-            <NavLink exact="true" activeclassname="active" to="/">
+            <NavLink exact="true" activeclassname="active" to="/p1">
                 <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
             </NavLink>
-            <NavLink exact="true" activeclassname="active" className="about-link" to="/about">
+            <NavLink exact="true" activeclassname="active" className="about-link" to="/p1/about">
                 <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
             </NavLink>
             <NavLink exact="true" activeclassname="active" className="contact-link" to="/contact">
