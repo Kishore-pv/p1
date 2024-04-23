@@ -9,9 +9,9 @@ function App() {
   return (
     <>
     <Routes>
-      <Route exact path="/p1" element={<Layout />}>
+      <Route exact path="/" element={<Layout />}>
         <Route index element={<Home />} />
-        <Route path="/p1/about" element={<About />} />
+        <Route path="about" element={<About />} />
       </Route>
     </Routes>
     </>
