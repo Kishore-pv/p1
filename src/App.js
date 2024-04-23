@@ -11,7 +11,7 @@ function App() {
     <Routes>
       <Route exact path="/p1" element={<Layout />}>
         <Route index element={<Home />} />
-        <Route path="about" element={<About />} />
+        <Route path="/p1/about" element={<About />} />
       </Route>
     </Routes>
     </>
