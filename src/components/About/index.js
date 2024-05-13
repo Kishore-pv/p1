@@ -20,9 +20,9 @@ const About = () => {
                 <h1>
                     <AnimatedLetters letterClass={letterClass} strArray={['A','b','o','u','t',' ','m','e']} idx={15} />
                 </h1>
-                <p>Hope is a profound and multifaceted concept that resonates deeply within the human experience. It is a powerful force that drives individuals to persevere through challenges, to envision a brighter future, and to maintain optimism in the face of adversity.</p>
-                <p>One of the most compelling aspects of hope is its universal nature. It transcends cultural, social, and economic boundaries, touching the lives of people from all walks of life. Whether facing personal setbacks, global crises, or societal challenges, hope serves as a beacon of light, guiding individuals and communities toward progress and renewal.</p>
-                <p>The essence of hope lies in its ability to instill courage and determination. In times of hardship, hope whispers words of encouragement, reminding us that setbacks are not permanent and that brighter days are ahead.</p>
+                <p>Full Stack Web Developer with 1+ years of experience in implementing web applications. Experienced in both front-end and back-end technologies, including Vus.js, HTML, CSS, Javascript, PHP(Laravel), and MySql.</p>
+                <p>Experienced in creating responsive and user-friendly interfaces, optimizing website performance, and ensuring compatibility across various browsers.</p>
+                <p>Committed to continuous learning, constantly trying to get the grasp of latest technologies and trends. Proven track record of collaborating effectively with cross-functional teams to deliver high-quality solutions that meet business requirements. Posses strong problem solving skills, attention to details, and a passion for developing clean, maintainable and efficient code.</p>
             </div>
 
             <div className='stage-cube-cont'>
