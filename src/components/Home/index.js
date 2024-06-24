@@ -47,6 +47,7 @@ import ani from '../../assets/logo/nV8nHHrN8v.json'
 import './index.scss';
 import AnimatedLetters from '../AnimatedLetters';
 import Logo from './Logo';
+import self from '../../assets/animations/Animation - 1719255186962.json'
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate');
@@ -81,8 +82,14 @@ const Home = () => {
           CONTACT ME
         </Link>
       </div>
-      <Logo />
+      <div className="lottie-container">
+        <Lottie animationData={self} loop={true} style={{ width: '300px', height: '300px' }}/>
+      </div>
+
+      {/* <Logo /> */}
+      
     </div>
+    
   );
 };
 
