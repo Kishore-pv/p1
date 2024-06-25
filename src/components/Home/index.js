@@ -83,7 +83,7 @@ const Home = () => {
         </Link>
       </div>
       <div className="lottie-container">
-        <Lottie animationData={self} loop={true} style={{ width: '300px', height: '300px' }}/>
+        <Lottie animationData={self} loop={true} style={{ width: '40%', height: '50%' }}/>
       </div>
 
       {/* <Logo /> */}
