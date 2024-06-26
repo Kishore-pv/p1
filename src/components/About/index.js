@@ -3,6 +3,7 @@ import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
 import { useEffect, useState } from 'react';
 import { faCss3, faGitAlt, faHtml5, faJsSquare, faLaravel, faReact } from '@fortawesome/free-brands-svg-icons';
+import Loader from 'react-loaders';
 
 const About = () => {
     
@@ -15,6 +16,7 @@ const About = () => {
     },[])
 
     return (
+        <>
         <div className="container about-page">
             <div className="text-zone">
                 <h1>
@@ -48,6 +50,8 @@ const About = () => {
                 </div>
             </div>
         </div>
+        <Loader type="pacman" />
+        </>
     )
 }
 
